@@ -1,0 +1,35 @@
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px, 39.5px;
+    background-color: white;
+    width: 10.625rem;
+    height: 3rem;
+    border-radius: 12px;
+
+}
+
+.button-div button {
+    /* color: #1E221D; */
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    color: #444444;
+
+}
+
+.colored-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px, 39.5px;
+    background-color: #38A926;
+    width: 10.625rem;
+    height: 3rem;
+    border-radius: 10px;
+    color: #38A926
+}
+
+/* .colored-button */

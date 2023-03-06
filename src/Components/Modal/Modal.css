@@ -1,0 +1,9 @@
+.modal-rapper {
+    background-color: #1E1E1E;
+    /* background-color: white; */
+    border: 1px solid CBCBCB;
+    border-radius: 15px;
+    height: 25rem;
+    width: 40rem;
+    padding: 2rem;
+}

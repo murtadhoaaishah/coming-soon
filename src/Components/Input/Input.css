@@ -1,0 +1,9 @@
+.input-rapper {
+    flex-grow: 1;
+}
+
+input {
+    color: CBCBCB;
+    background-color: red;
+    flex-grow: 1;
+}

@@ -1,0 +1,74 @@
+.coming-soon-hero {
+    display: flex;
+    flex-direction: row;
+    padding-top: 9.125rem;
+    padding-bottom: 9.9375rem;
+}
+
+/* .coming-soon-hero::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+} */
+
+.coming-soon-hero img {
+    width: 17.75rem;
+    padding-left: 17rem;
+    padding-right: 1.375rem;
+}
+
+.coming-soon-div {
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.launch {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.desc {
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 75%;
+    align-self: center;
+}
+
+.sorry {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.notify-me {
+    height: 7rem;
+    animation: bounce linear 3s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes bounce {
+    0% {
+        padding-top: 0rem;
+    }
+
+    50% {
+        padding-top: 1.5rem;
+
+
+    }
+
+    100% {
+        padding-top: 3rem;
+
+    }
+}
