@@ -1,9 +1,41 @@
 .modal-rapper {
     background-color: #1E1E1E;
-    /* background-color: white; */
-    border: 1px solid CBCBCB;
     border-radius: 15px;
-    height: 25rem;
-    width: 40rem;
+    height: 20.625rem;
+    width: 26.5rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.close-rapper {
+    display: flex;
+    justify-content: end;
+}
+
+.close {
+    color: #646464;
+}
+
+.input-rapper {
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 27px;
+    padding: 1rem 0rem;
+}
+
+input {
+    color: #CBCBCB;
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+
+    font-size: 1rem;
+    display: block;
+}
+
+
+.button-rapper {
+    display: flex;
+    justify-content: end;
 }
