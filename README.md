@@ -1,3 +1,3 @@
 # coming-soon
 
-[preview](murtadhoaashahcomingsoonpage.netlify.app)
+[preview](https://murtadhoaashahcomingsoonpage.netlify.app)
